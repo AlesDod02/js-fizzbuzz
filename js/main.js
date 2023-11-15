@@ -2,12 +2,12 @@ let lista = document.getElementById("listanumeri");
 
 
 for (let i=1; i < 101; i++) {
-    let listItem = document.createElement("li")
+    let listItem = document.createElement("li");
     
     if (i%15==0){
         listItem.textContent="fizzbuzz"
         //i=fizzbuzz
-        console.log("fizzbuzz")
+        console.log("fizzbuzz");
     }
     else if(i%5==0){
         listItem.textContent="buzz"
@@ -24,6 +24,7 @@ for (let i=1; i < 101; i++) {
         listItem.textContent=i
     }
     listanumeri.appendChild(listItem)
+    listItem.classList.add("text-primary");
    
 }
 
