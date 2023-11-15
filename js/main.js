@@ -5,19 +5,19 @@ for (let i=1; i < 101; i++) {
     let listItem = document.createElement("li");
     
     if (i%15==0){
-        listItem.textContent="fizzbuzz"
+        listItem.textContent="FizzBuzz"
         //i=fizzbuzz
-        console.log("fizzbuzz");
+        console.log("FizzBuzz");
     }
     else if(i%5==0){
-        listItem.textContent="buzz"
+        listItem.textContent="Buzz"
         //i=buzz
-        console.log("buzz");
+        console.log("Buzz");
     }
     else if(i%3==0){
-        listItem.textContent="fizz"
+        listItem.textContent="Fizz"
         //i=fizz
-        console.log("fizz");
+        console.log("Fizz");
     }
     else {
         console.log(i)
